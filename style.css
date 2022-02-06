@@ -47,7 +47,7 @@ header {
 .container {
   margin: 0 auto;
   margin-top: 7rem;
-  width: 80%;
+  width: 90%;
 }
 
 .btn-try {
@@ -114,6 +114,70 @@ h2.message-medium {
   font-size: 0.875rem;
   font-weight: 400;
 }
+
+.big-question {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  text-align: center;
+}
+
+.footer-container h2 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.footer-container p {
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.footer-top {
+  height: 100%;
+  width: 100%;
+}
+.footer-container {
+  background-color: #00252e;
+  padding: 1rem 1.875rem 1.875rem 3rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  text-align: left;
+}
+
+.footer-container .input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.input-container input {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1em;
+  line-height: 1.5em;
+  font-size: 0.875rem;
+  border-radius: 0.375em;
+}
+
+.text-logo {
+  background-image: url("/images/logo.svg");
+  color: white;
+  width: 100%;
+  height: 30px;
+}
+
 /* Support classes */
 
 .img-fw {
@@ -146,6 +210,30 @@ h2.message-medium {
 .mt-7_5 {
   margin-top: 7.5rem;
 }
+
 .mt-11_25 {
   margin-top: 11.25rem;
+}
+
+.mt-12_5 {
+  margin-top: 12.5rem;
+}
+
+.mt-15 {
+  margin-top: 15rem;
+}
+
+.mt-17_5 {
+  margin-top: 17.5rem;
+}
+/* For Debugging */
+
+.dbg-green {
+  outline: 2px solid rgb(109, 224, 56);
+}
+.dbg-blue {
+  outline: 2px solid #0879db;
+}
+.dbg-red {
+  outline: 2px solid red;
 }
