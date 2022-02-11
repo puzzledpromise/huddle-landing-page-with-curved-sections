@@ -129,6 +129,7 @@ h2.message-medium {
 }
 
 .description {
+  margin-top: 1.5rem;
   text-align: center;
   font-size: 0.875rem;
   font-weight: 400;
@@ -256,6 +257,22 @@ ion-icon:hover {
 ion-icon {
   font-size: 1.85rem;
 }
+
+@media (min-width: 750px) {
+  header {
+    margin: 5rem;
+    max-width: 1000px;
+  }
+
+  .logo {
+    height: 2rem;
+  }
+
+  .btn-try {
+    font-size: 1rem;
+  }
+}
+
 /* Support classes */
 
 .img-fw {
