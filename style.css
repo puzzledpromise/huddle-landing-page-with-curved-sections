@@ -257,12 +257,16 @@ footer {
 .contact:first-of-type {
   margin-top: 0;
 }
-io-icon {
+
+ion-icon {
+  font-size: 1.85rem;
   cursor: pointer;
 }
+
 ion-icon:hover {
-  filter: invert(28%) sepia(37%) saturate(3395%) hue-rotate(289deg)
-    brightness(152%) contrast(101%);
+  /* See:  https://codepen.io/sosuke/pen/Pjoqqp */
+  filter: invert(35%) sepia(18%) saturate(6121%) hue-rotate(150deg)
+    brightness(100%) contrast(100%);
 }
 .icon-phone {
   padding-left: 2.5em;
@@ -290,9 +294,6 @@ ion-icon:hover {
 .social-box a {
   text-decoration: none;
   color: white;
-}
-ion-icon {
-  font-size: 1.85rem;
 }
 
 @media (min-width: 750px) {
