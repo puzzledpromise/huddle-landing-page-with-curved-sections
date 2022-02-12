@@ -77,6 +77,7 @@ header {
 }
 
 h2.message-medium {
+  margin-top: 2.5rem;
   font-weight: 700;
 }
 
@@ -98,6 +99,15 @@ h2.message-medium {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 }
 
+.screen-mockup {
+  margin-top: 6.5rem;
+}
+.infoboxes {
+  margin-top: 7.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.5rem;
+}
 .infobox {
   display: flex;
   margin: 0 auto;
@@ -128,21 +138,34 @@ h2.message-medium {
   margin-top: 0;
 }
 
+.illustrations {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13rem;
+  gap: 12.5rem;
+}
 .description {
   margin-top: 1.5rem;
+  margin-bottom: 3rem;
   text-align: center;
   font-size: 0.875rem;
   font-weight: 400;
+  line-height: 1.3125rem;
 }
 
-.big-question {
+.large-cta-box {
+  margin-top: 12.5rem;
+}
+.large-cta-question {
   text-align: center;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 2.25rem;
+  margin-bottom: 2.5rem;
 }
 
 footer {
+  margin-top: 15rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -191,6 +214,10 @@ footer {
   border-radius: 0.375em;
 }
 
+.input-container button {
+  margin-top: 1rem;
+}
+
 .btn-subscribe {
   color: white;
   font-size: 1rem;
@@ -208,6 +235,7 @@ footer {
 }
 
 .text-logo {
+  margin-top: 6.5rem;
   background-image: url("images/logo.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -215,10 +243,19 @@ footer {
   filter: brightness(0) invert(1);
 }
 
+.contact-box {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
 .contact {
   font-size: 0.875rem;
   line-height: 1.5rem;
   margin-top: 1rem;
+}
+
+.contact:first-of-type {
+  margin-top: 0;
 }
 io-icon {
   cursor: pointer;
@@ -227,7 +264,6 @@ ion-icon:hover {
   filter: invert(28%) sepia(37%) saturate(3395%) hue-rotate(289deg)
     brightness(152%) contrast(101%);
 }
-
 .icon-phone {
   padding-left: 2.5em;
   background: url("images/icon-phone.svg");
@@ -246,6 +282,7 @@ ion-icon:hover {
   text-decoration: none;
 }
 .social-box {
+  margin-top: 3rem;
   display: flex;
   flex-direction: row;
   gap: 0.7rem;
@@ -277,49 +314,6 @@ ion-icon {
 
 .img-fw {
   width: 100%;
-}
-
-.mt-1 {
-  margin-top: 1rem;
-}
-
-.mt-1_5 {
-  margin-top: 1.5rem;
-}
-
-.mt-2_5 {
-  margin-top: 2.5rem;
-}
-
-.mt-3 {
-  margin-top: 3rem;
-}
-
-.mt-5_5 {
-  margin-top: 5.5rem;
-}
-.mt-6_5 {
-  margin-top: 6.5rem;
-}
-
-.mt-7_5 {
-  margin-top: 7.5rem;
-}
-
-.mt-11_25 {
-  margin-top: 11.25rem;
-}
-
-.mt-12_5 {
-  margin-top: 12.5rem;
-}
-
-.mt-15 {
-  margin-top: 15rem;
-}
-
-.mt-17_5 {
-  margin-top: 17.5rem;
 }
 /* For Debugging */
 
