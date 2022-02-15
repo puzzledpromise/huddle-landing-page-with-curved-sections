@@ -116,7 +116,6 @@ h2.message-medium {
   margin: 0 auto;
   flex-direction: column;
   align-items: center;
-  max-width: 11rem;
   padding: 0 0.5em;
 }
 .info-icon {
@@ -299,6 +298,12 @@ ion-icon:hover {
   color: white;
 }
 
+/* Support classes */
+
+.img-fw {
+  width: 100%;
+}
+
 @media (min-width: 750px) {
   header {
     margin: 5rem;
@@ -309,27 +314,61 @@ ion-icon:hover {
     height: 2rem;
   }
 
+  .container {
+    max-width: 1200px;
+  }
+
   .btn-try {
     font-size: 1rem;
   }
 
   .message-large {
+    line-height: 1.2;
     margin-top: 14rem;
     font-size: 3rem;
     font-weight: 700;
+    max-width: 80%;
   }
 
   .description {
+    margin-top: 1.7rem;
+    max-width: 70%;
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+
+  .btn-get-started {
+    font-size: 1.25rem;
+    padding: 1.42em 5em;
+    border-radius: 40px;
+  }
+
+  .screen-mockup {
+    width: 80%;
+  }
+
+  .infoboxes {
+    margin-top: 7.5rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40%;
+  }
+
+  .infobox {
+    border: 1px solid green;
+  }
+
+  .info-icon {
+    height: 5rem;
+    margin: 0;
     border: 1px solid red;
-    max-width: 40rem;
+  }
+  .info-number {
+    font-size: 5.3rem;
+    line-height: 1.6;
   }
 }
 
-/* Support classes */
-
-.img-fw {
-  width: 100%;
-}
 /* For Debugging */
 
 .dbg-green {
