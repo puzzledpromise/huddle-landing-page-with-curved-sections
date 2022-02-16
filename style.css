@@ -330,11 +330,22 @@ ion-icon:hover {
     max-width: 80%;
   }
 
+  .illustration {
+    display: flex;
+    flex-direction: row;
+  }
+
+  h2.message-medium {
+    text-align: left;
+  }
+
   .description {
-    margin-top: 1.7rem;
-    max-width: 70%;
     font-size: 1.25rem;
     line-height: 1.6;
+    text-align: left;
+    border: 1px solid blue;
+    max-width: 70%;
+    margin-top: 1.7rem;
   }
 
   .btn-get-started {
