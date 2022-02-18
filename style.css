@@ -340,18 +340,25 @@ ion-icon:hover {
   .illustration {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+
+  .illustration:first-of-type {
+    margin-top: 23rem;
   }
 
   h2.message-medium {
     text-align: left;
+    font-size: 2.5rem;
   }
 
   .description {
-    font-size: 1.25rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.5;
     text-align: left;
-    border: 1px solid blue;
-    max-width: 70%;
+    max-width: 90%;
     margin-top: 1.7rem;
   }
 
@@ -372,18 +379,17 @@ ion-icon:hover {
     gap: 40%;
   }
 
-  .infobox {
-    border: 1px solid green;
-  }
-
   .info-icon {
     height: 5rem;
     margin: 0;
-    border: 1px solid red;
   }
   .info-number {
     font-size: 5.3rem;
     line-height: 1.6;
+  }
+
+  .large-cta-question {
+    font-size: 2.5rem;
   }
 }
 
