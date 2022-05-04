@@ -220,7 +220,8 @@ footer {
   width: 100%;
 }
 
-.footer-container .input-container {
+.input-container {
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -231,17 +232,12 @@ footer {
   flex-direction: column;
 }
 .input-container input {
-  margin-top: 2rem;
-  width: 100%;
-  padding: 1em;
+  padding: 0.7rem;
   line-height: 1.5em;
   font-size: 0.875rem;
   border-radius: 0.375em;
 }
 
-.input-container button {
-  margin-top: 1rem;
-}
 
 .btn-subscribe {
   color: white;
@@ -252,6 +248,7 @@ footer {
   padding: 0.88em 2.7em;
   border-radius: 0.375em;
   cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 .btn-subscribe:hover,
@@ -334,6 +331,13 @@ ion-icon:hover {
   order: 2;
 }
 
+.nl-error{
+  color: #FF4343;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  display: none;
+}
+
 @media (min-width: 750px) {
   header {
     margin-top: 5rem;
@@ -389,6 +393,7 @@ ion-icon:hover {
   h2.message-medium {
     text-align: left;
     font-size: 2.5rem;
+    line-height: 1.1;
   }
 
 
@@ -454,19 +459,43 @@ ion-icon:hover {
   .footer-box-a{
     order: 2;
     padding: 2.5rem;
-    max-width: 500px;
+    max-width: 700px;
+  }
+
+  .footer-box-a p, .footer-box-b p{
+    max-width: 23rem;
   }
 
   .footer-box-b{
     order: 1;
     padding: 2.5rem;
-    max-width: 500px;
+    max-width: 700px;
   }
 
   .text-logo{
     margin-top: 0;
   }
 
+
+
+  .input-container input{
+    width: 100%;
+    max-width: 20rem;
+  }
+
+}
+
+@media(min-width: 1000px){
+  .input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .btn-subscribe{
+      margin-top: 0;
+  }
 }
 
 /* For Debugging */
